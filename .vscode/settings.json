@@ -1,0 +1,12 @@
+{
+	"files.associations": {
+		"*.ejs": "html",
+		"iostream": "cpp",
+		"*.tcc": "cpp",
+		"type_traits": "cpp",
+		"ostream": "cpp",
+		"istream": "cpp",
+		"iosfwd": "cpp"
+	},
+	"cSpell.words": ["EVTHANDLER", "EVTMANAGER", "MOVECMD"]
+}
