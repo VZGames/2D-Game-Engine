@@ -84,6 +84,16 @@ public:
         this->m_Y = static_cast<T>(0);
     }
 
+    inline const T &getX() const
+    {
+        return m_X;
+    }
+
+    inline const T &getY() const
+    {
+        return m_Y;
+    }
+
     friend std::ostream &operator<<(std::ostream &out, const Vector2D<T> &vec)
     {
         out << "(" << vec.m_X << "," << vec.m_Y << ")";
@@ -93,7 +103,10 @@ public:
     {
         std::cout << m_X << ", " << m_Y << std::endl;
     }
+    const T &X() const;
+    const T &Y() const;
 };
+
 
 using d_Vector2D = Vector2D<int>;
 using f_Vector2D = Vector2D<float>;
